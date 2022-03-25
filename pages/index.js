@@ -5,9 +5,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Movie Fair</title>
+        <title>MovieCon</title>
         <meta name="keywords" content="web development, programming" />
       </Head>
+      <h1>The Movie App</h1>
     </div>
   );
 }

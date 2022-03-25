@@ -1,5 +1,7 @@
 .navbar {
-  background: #90d5ec;
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  /* background: #90d5ec; */
   color: white;
   height: 90px;
   width: 100%;
@@ -26,34 +28,34 @@
   padding-left: 5rem;
   font-size: 3rem;
 }
-/* 
-.title:hover {
-  border-bottom: 3px solid grey;
+
+/* .title:hover {
+  text-shadow: 2px solid #ff4e00;
 } */
 
 .links {
-  margin-left: 3rem;
+  margin-left: 4rem;
   font-size: 2rem;
 }
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 /* @media (max-width: 320px) {
-    .title {
-      font-size: 2rem;
-    }
-    .links {
-      font-size: 1rem;
-    }
-  } */
+  .title {
+    font-size: 2rem;
+  }
+  .links {
+    font-size: 1rem;
+  }
+} */
 /* smartphones, Android phones, landscape iPhone */
 /* @media (max-width: 480px) {
-    .title {
-      font-size: 2rem;
-    }
-    .links {
-      font-size: 1rem;
-    }
-  } */
+  .title {
+    font-size: 2rem;
+  }
+  .links {
+    font-size: 1rem;
+  }
+} */
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 /* @media (max-width: 600px) {
   } */

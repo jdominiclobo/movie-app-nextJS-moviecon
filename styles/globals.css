@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@600&family=Fredoka+One&family=Libre+Baskerville:wght@700&family=Neonderthaw&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Fredoka One", cursive;
 }
 
 a {

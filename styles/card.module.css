@@ -1,0 +1,18 @@
+.card {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 30vh;
+  height: 23vw;
+  border: 8px solid beige;
+  margin: 1rem;
+}
+
+.card:hover {
+  border: 8px solid grey;
+}
+
+.h2 {
+  color: rgb(197, 95, 95);
+}
