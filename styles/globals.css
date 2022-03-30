@@ -1,10 +1,10 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@600&family=Fredoka+One&family=Libre+Baskerville:wght@700&family=Neonderthaw&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&family=Concert+One&family=Indie+Flower&family=Open+Sans&family=Patrick+Hand&family=Permanent+Marker&family=Press+Start+2P&family=Shizuru&display=swap");
 
 html,
 body {
   padding: 0.3rem;
   margin: 0;
-  /* font-family: "Fredoka One", cursive; */
+  font-family: "Patrick Hand", cursive;
 }
 
 a {
