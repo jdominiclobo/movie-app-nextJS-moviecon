@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&family=Concert+One&family=Indie+Flower&family=Open+Sans&family=Patrick+Hand&family=Permanent+Marker&family=Press+Start+2P&family=Shizuru&display=swap");
+
+.container {
+  padding: 3rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* .backdrop {
+  opacity: 0.5;
+} */
+
+.containerOne {
+  /* margin-right: 20px; */
+  max-width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.profileImage {
+  max-width: 25%;
+  border: 2px solid grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.movieDetails {
+  max-width: 75%;
+  margin-left: 3rem;
+  font-family: "Patrick Hand", cursive;
+}
+
+.movieDetails h1 {
+  font-size: 3rem;
+  color: brown;
+}
+
+/* .containerTwo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  flex-wrap: wrap;
+} */
+
+.castWindow {
+  display: -webkit-box;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.recomWindow {
+  display: flex;
+  display: -webkit-box;
+  width: 100%;
+  flex-direction: column;
+  overflow-x: scroll;
+}
+
+/* tablet screens */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .movieDetails {
+    max-width: 70%;
+    margin-left: 3rem;
+  }
+  .movieDetails h1 {
+    font-size: 2rem;
+  }
+}
+/* // smartphones */
+@media screen and (max-width: 767px) {
+  .containerOne {
+    max-width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .movieDetails {
+    max-width: 70%;
+    margin-left: 2rem;
+  }
+  .movieDetails h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .containerOne {
+    max-width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .movieDetails {
+    max-width: 70%;
+    margin-left: 2rem;
+  }
+  .movieDetails h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}

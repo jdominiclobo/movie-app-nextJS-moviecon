@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&family=Concert+One&family=Indie+Flower&family=Open+Sans&family=Patrick+Hand&family=Permanent+Marker&family=Press+Start+2P&family=Shizuru&display=swap");
+
+.searchContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-family: "Patrick Hand", cursive;
+}
+
+.heading {
+  font-family: "Patrick Hand", cursive;
+  margin-left: 1em;
+  line-height: 2rem;
+  /* font-size: x-large; */
+}
+
+.searchContainer input {
+  margin-left: 1em;
+  width: 80%;
+  height: 1rem;
+  font-size: x-large;
+  background-color: rgb(214, 245, 234);
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 1em;
+  font-family: "Patrick Hand", cursive;
+}
+.searchContainer button {
+  /* margin-top: 1em; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 20%;
+  height: 3rem;
+  font-size: larger;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-family: "Patrick Hand", cursive;
+}
+
+.searchContainer button {
+  cursor: pointer;
+}
+
+.cardContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  justify-content: center;
+  font-family: "Patrick Hand", cursive;
+}
+
+@media screen and (max-width: 767px) {
+  .searchContainer {
+    display: inherit;
+    flex-direction: column;
+  }
+  .searchContainer button {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .searchContainer {
+    display: inherit;
+    flex-direction: column;
+  }
+  .searchContainer button {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 30%;
+  }
+}

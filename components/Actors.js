@@ -1,4 +1,4 @@
-import { ActorCard } from "./ActorCard";
+import ActorCard from "./ActorCard";
 import actorsStyles from "../styles/container.module.css";
 
 export const Actors = ({ actors }) => {

@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@600&family=Fredoka+One&family=Libre+Baskerville:wght@700&family=Neonderthaw&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@600&family=Fredoka+One&family=Libre+Baskerville:wght@700&family=Neonderthaw&display=swap"); */
 
 html,
 body {
-  padding: 0;
+  padding: 0.3rem;
   margin: 0;
-  font-family: "Fredoka One", cursive;
+  /* font-family: "Fredoka One", cursive; */
 }
 
 a {
@@ -14,4 +14,6 @@ a {
 
 * {
   box-sizing: border-box;
+  line-height: 1.2rem;
+  letter-spacing: 1.2px;
 }

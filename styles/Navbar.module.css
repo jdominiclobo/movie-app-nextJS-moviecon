@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@600&family=Fredoka+One&family=Libre+Baskerville:wght@700&family=Neonderthaw&display=swap");
+
 .navbar {
-  background-color: #ff4e00;
-  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-  /* background: #90d5ec; */
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
   color: white;
   height: 90px;
   width: 100%;
@@ -10,52 +11,61 @@
   position: sticky;
   top: 0;
   z-index: 1;
+  align-items: center;
+  font-family: "Fredoka One", cursive;
 }
 
-.navbar ul {
+.title {
+  padding-left: 4rem;
+  font-size: 3rem;
+}
+
+/* .navbar ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
-}
+} */
 
 .navbar ul li {
   margin: 5px 15px;
 }
 
-.title {
-  margin-top: 1rem;
-  padding-left: 5rem;
-  font-size: 3rem;
-}
-
-/* .title:hover {
-  text-shadow: 2px solid #ff4e00;
-} */
-
 .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
   margin-left: 4rem;
   font-size: 2rem;
 }
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-/* @media (max-width: 320px) {
+@media (max-width: 320px) {
   .title {
-    font-size: 2rem;
+    font-size: 1em;
   }
   .links {
-    font-size: 1rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
   }
-} */
+}
 /* smartphones, Android phones, landscape iPhone */
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   .title {
     font-size: 2rem;
+    padding-left: 1rem;
+    align-items: center;
+    justify-content: center;
   }
   .links {
-    font-size: 1rem;
+    display: grid;
+    font-size: 1.5rem;
+    margin-left: 0rem;
   }
-} */
+}
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 /* @media (max-width: 600px) {
   } */

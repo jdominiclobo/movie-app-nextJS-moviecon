@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&family=Concert+One&family=Indie+Flower&family=Open+Sans&family=Patrick+Hand&family=Permanent+Marker&family=Press+Start+2P&family=Shizuru&display=swap");
+
+.container {
+  padding: 2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Patrick Hand", cursive;
+}
+
+.containerOne {
+  margin-right: 20px;
+  max-width: 25%;
+}
+
+.profileImage {
+  border: 2px solid grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px 0 #20bf55, 0 6px 20px 0 #01baef; */
+}
+
+.socials {
+  margin-top: 1rem;
+}
+
+.personalDetails h2 {
+  color: brown;
+}
+
+.containerTwo {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  flex-wrap: wrap;
+}
+
+.containerTwo h1 {
+  font-size: 3rem;
+  color: brown;
+  line-height: 3rem;
+}
+
+.containerTwo h2 {
+  color: brown;
+  font-size: xx-large;
+}
+
+.containerTwo h3 {
+  font-size: large;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.moviesWindow {
+  display: flex;
+  width: 100%;
+  /* margin: auto; */
+  overflow-x: scroll;
+  /* white-space: nowrap; */
+}

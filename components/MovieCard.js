@@ -9,15 +9,23 @@ const MovieCard = ({ movie }) => {
     ? `https://www.themoviedb.org/t/p/w1280${movie?.backdrop_path}`
     : process.env.EMPTY_MOVIE_IMAGE;
   return (
-    <div className={cardStyles.card}>
-      <Link href={`/movie/${movie.id}`}>
-        <a>
-          <Image src={imagePath} width={230} height={290} />
-          <h3>{movie.title}</h3>
+    <Link href={`/movie/${movie.id}`}>
+      <a>
+        <div className={cardStyles.card}>
+          {/* <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          > */}
+          <Image src={imagePath} width={220} height={270} />
+          {/* </div> */}
+          <p>{movie.title}</p>
           <p>Rating : {movie.vote_average}</p>
-        </a>
-      </Link>
-    </div>
+        </div>
+      </a>
+    </Link>
   );
 };
 export default MovieCard;

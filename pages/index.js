@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Search from "../components/SearchComponent/Search";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
         <title>MovieCon</title>
         <meta name="keywords" content="web development, programming" />
       </Head>
-      <h1>The Movie App</h1>
+      <Search />
     </div>
   );
 }
