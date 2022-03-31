@@ -1,5 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const withPWA = require("next-pwa");
+const prod = process.env.NODE_ENV === "production";
+
+module.exports = withPWA({
+  pwa: {
+    dest: "public",
+    register: true,
+    skipWaiting: true,
+    disable: prod ? false : true,
+  },
+
   reactStrictMode: true,
   images: {
     domains: ["www.themoviedb.org"],
@@ -13,6 +23,4 @@ const nextConfig = {
     EMPTY_MOVIE_IMAGE:
       "https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-38-picture-grey-c2ebdbb057f2a7614185931650f8cee23fa137b93812ccb132b9df511df1cfac.svg",
   },
-};
-
-module.exports = nextConfig;
+});
