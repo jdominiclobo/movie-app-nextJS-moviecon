@@ -14,10 +14,10 @@ const Search = () => {
     handlePeopleSearch,
   } = useSearchComponent();
 
-  useEffect(() => {
-    console.log("movies", movies);
-    console.log("people", people);
-  }, [movies, people]);
+  // useEffect(() => {
+  //   console.log("movies", movies);
+  //   console.log("people", people);
+  // }, [movies, people]);
 
   return (
     <>

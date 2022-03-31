@@ -8,10 +8,6 @@ export const useSearchComponent = () => {
 
   const handleChange = (e) => {
     setKeyword(e.target.value);
-    // if (!e.target.value) {
-    //   setMovies([]);
-    //   setPeople([]);
-    // }
   };
 
   const handleMovieSearch = async () => {

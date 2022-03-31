@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@600&family=Fredoka+One&family=Libre+Baskerville:wght@700&family=Neonderthaw&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&family=Concert+One&family=Indie+Flower&family=Lobster&family=Open+Sans&family=Patrick+Hand&family=Permanent+Marker&family=Press+Start+2P&family=Shizuru&display=swap");
 .navbar {
   background-color: #20bf55;
   background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
@@ -12,20 +11,13 @@
   top: 0;
   z-index: 1;
   align-items: center;
-  font-family: "Fredoka One", cursive;
+  font-family: "Lobster", cursive;
 }
 
 .title {
   padding-left: 4rem;
   font-size: 3rem;
 }
-
-/* .navbar ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-} */
 
 .navbar ul li {
   margin: 5px 15px;
@@ -66,9 +58,3 @@
     margin-left: 0rem;
   }
 }
-/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-/* @media (max-width: 600px) {
-  } */
-/* tablet, landscape iPad, lo-res laptops ands desktops */
-/* @media (max-width: 801px) {
-  } */

@@ -12,15 +12,7 @@ const MovieCard = ({ movie }) => {
     <Link href={`/movie/${movie.id}`}>
       <a>
         <div className={cardStyles.card}>
-          {/* <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          > */}
           <Image src={imagePath} width={220} height={270} />
-          {/* </div> */}
           <p>{movie.title}</p>
           <p>Rating : {movie.vote_average}</p>
         </div>

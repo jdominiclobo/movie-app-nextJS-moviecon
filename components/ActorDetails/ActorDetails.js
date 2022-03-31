@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./styles/ActorDetails.module.css";
-import ActorMovies from "./ActorMovies";
 import { ActorMovieCard } from "./ActorMovieCard";
 import { FaInstagramSquare, FaTwitter } from "react-icons/fa";
 

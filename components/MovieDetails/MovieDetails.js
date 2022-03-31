@@ -17,12 +17,6 @@ const MovieDetails = ({ movieDetails, movieCredits, movieRecommendations }) => {
 
   return (
     <div className={styles.container}>
-      {/* <div
-        className={styles.backdrop}
-        style={{
-          backgroundImage: `url(https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces${movieDetails.backdrop_path})`,
-        }}
-      > */}
       <div className={styles.containerOne}>
         <Image
           className={styles.profileImage}
@@ -73,7 +67,6 @@ const MovieDetails = ({ movieDetails, movieCredits, movieRecommendations }) => {
         </div>
       </div>
     </div>
-    // </div>
   );
 };
 export default MovieDetails;
