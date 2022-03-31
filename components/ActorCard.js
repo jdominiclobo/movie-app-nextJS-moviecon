@@ -18,7 +18,7 @@ const ActorCard = ({ actor }) => {
               borderRadius: "10px",
             }}
           >
-            <Image src={imagePath} width={240} height={300} />
+            <Image src={imagePath} width={220} height={280} />
           </div>
           <h3 style={{ color: "#a40606" }}>{actor.name}</h3>
         </div>
