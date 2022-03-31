@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&family=Concert+One&family=Indie+Flower&family=Lobster&family=Open+Sans&family=Patrick+Hand&family=Permanent+Marker&family=Press+Start+2P&family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@600&family=Fredoka+One&family=Libre+Baskerville:wght@700&family=Lobster+Two:ital@1&family=Neonderthaw&display=swap");
+
 .navbar {
   background-color: #20bf55;
   background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
@@ -11,7 +12,7 @@
   top: 0;
   z-index: 1;
   align-items: center;
-  font-family: "Lobster", cursive;
+  font-family: "Lobster Two", cursive;
 }
 
 .title {

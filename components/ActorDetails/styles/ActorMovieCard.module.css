@@ -9,6 +9,10 @@
   box-shadow: 0 4px 8px 0 #20bf55, 0 6px 20px 0 #01baef;
 }
 
+.movieCard :hover {
+  cursor: pointer;
+}
+
 .movieCard p {
   font-size: 16px;
 }

@@ -3,17 +3,6 @@ import { Actors } from "../components/Actors";
 const actors = ({ actors }) => {
   return (
     <div>
-      <div>
-        <h1
-          style={{
-            fontFamily: "Patrick Hand",
-            fontSize: "2rem",
-            marginLeft: "1rem",
-          }}
-        >
-          Popular Actors
-        </h1>
-      </div>
       <Actors actors={actors} />
     </div>
   );

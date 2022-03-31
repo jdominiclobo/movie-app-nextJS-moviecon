@@ -52,14 +52,14 @@ const MovieDetails = ({ movieDetails, movieCredits, movieRecommendations }) => {
           </div>
         </div>
       </div>
-      <h2 style={{ fontFamily: "Patrick Hand", fontSize: "2rem" }}>
+      <h2 style={{ fontFamily: "Lobster Two", fontSize: "2rem" }}>
         Top Movie Cast
       </h2>
       <div className={styles.castWindow}>
         <MovieCast movieCredits={movieCredits} />
       </div>
       <div>
-        <h2 style={{ fontFamily: "Patrick Hand", fontSize: "2rem" }}>
+        <h2 style={{ fontFamily: "Lobster Two", fontSize: "2rem" }}>
           Recommendations
         </h2>
         <div className={styles.recomWindow}>

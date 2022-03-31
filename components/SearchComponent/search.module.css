@@ -1,15 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&family=Concert+One&family=Indie+Flower&family=Open+Sans&family=Patrick+Hand&family=Permanent+Marker&family=Press+Start+2P&family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@600&family=Fredoka+One&family=Libre+Baskerville:wght@700&family=Lobster+Two:ital@1&family=Neonderthaw&display=swap");
 
 .searchContainer {
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-family: "Patrick Hand", cursive;
 }
 
 .heading {
-  font-family: "Patrick Hand", cursive;
+  font-family: "Lobster Two", cursive;
   margin-left: 1em;
   line-height: 2rem;
 }
@@ -23,7 +22,7 @@
   border: 2px solid grey;
   border-radius: 5px;
   padding: 1em;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Lobster Two", cursive;
 }
 .searchContainer button {
   margin-left: 1rem;
@@ -33,7 +32,7 @@
   font-size: larger;
   border: 2px solid grey;
   border-radius: 5px;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Lobster Two", cursive;
 }
 
 .searchContainer button {
@@ -47,7 +46,7 @@
   flex-wrap: wrap;
   padding: 0.5rem;
   justify-content: center;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Lobster Two", cursive;
 }
 
 @media screen and (max-width: 767px) {

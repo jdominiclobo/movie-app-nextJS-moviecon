@@ -9,7 +9,11 @@
   margin: 10px;
   text-align: center;
   box-shadow: 0 4px 8px 0 #20bf55, 0 6px 20px 0 #01baef;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Lobster Two", cursive;
+}
+
+.card :hover {
+  cursor: pointer;
 }
 
 .card h3 {

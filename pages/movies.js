@@ -3,17 +3,6 @@ import { Movies } from "../components/Movies";
 const movies = ({ movies }) => {
   return (
     <div>
-      <div>
-        <h1
-          style={{
-            fontFamily: "Patrick Hand",
-            fontSize: "2rem",
-            marginLeft: "1rem",
-          }}
-        >
-          Popular Movies
-        </h1>
-      </div>
       <Movies movies={movies} />
     </div>
   );
